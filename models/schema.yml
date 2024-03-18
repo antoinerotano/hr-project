@@ -1,0 +1,81 @@
+version: 2
+
+sources:
+  - name: dataset
+    schema: HR_datasets
+    description: "All HR datas"
+    tables:
+      - name: general
+        identifier: general_data
+        description: "HR general data"
+        columns:
+          - name: Age
+            description: "Age of the employee"
+          - name: Attrition
+            description: "Whether the employee has left the company"
+          - name: BusinessTravel
+            description: "Frequency of business travel"
+          - name: Department
+            description: "Department the employee works in"
+          - name: DistanceFromHome
+            description: "Distance from home to work"
+          - name: Education
+            description: "Education level"
+          - name: EducationField
+            description: "Field of study"
+          - name: EmployeeCount
+            description: "Employee count (usually 1 for individual records)"
+          - name: EmployeeID
+            description: "Unique identifier for each employee"
+          - name: Gender
+            description: "Gender of the employee"
+          - name: JobLevel
+            description: "Level of the job"
+          - name: JobRole
+            description: "Role of the job"
+          - name: MaritalStatus
+            description: "Marital status of the employee"
+          - name: MonthlyIncome
+            description: "Monthly income of the employee"
+          - name: NumCompaniesWorked
+            description: "Number of companies the employee has worked for"
+          - name: Over18
+            description: "Indicates if the employee is over 18"
+          - name: PercentSalaryHike
+            description: "Percentage of the last salary hike"
+          - name: StandardHours
+            description: "Standard hours of work (may be a fixed value)"
+          - name: StockOptionLevel
+            description: "Level of the stock options"
+          - name: TotalWorkingYears
+            description: "Total years of work experience"
+          - name: TrainingTimesLastYear
+            description: "Number of times trained last year"
+          - name: YearsAtCompany
+            description: "Number of years spent at the company"
+          - name: YearsSinceLastPromotion
+            description: "Years since the last promotion"
+          - name: YearsWithCurrManager
+            description: "Years with the current manager"
+      - name: employee_survey_data
+        identifier: employee_survey_data
+        description: "Survey data related to employees"
+        columns:
+          - name: EmployeeID
+            description: "Unique identifier for each employee"
+          - name: EnvironmentSatisfaction
+            description: "Satisfaction with the work environment"
+          - name: JobSatisfaction
+            description: "Satisfaction with the job"
+          - name: WorkLifeBalance
+            description: "Perception of work-life balance"
+      - name: manager_survey_data
+        identifier: manager_survey_data
+        description: "Survey data related to managers' assessments of employees"
+        columns:
+          - name: EmployeeID
+            description: "Unique identifier for each employee, matching their record in other tables"
+          - name: JobInvolvement
+            description: "Degree of the employee's involvement in their job"
+          - name: PerformanceRating
+            description: "Rating of the employee's overall performance"
