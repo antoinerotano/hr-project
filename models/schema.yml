@@ -79,6 +79,33 @@ sources:
             description: "Degree of the employee's involvement in their job"
           - name: PerformanceRating
             description: "Rating of the employee's overall performance"
+
+      - name: df_global
+        identifier: df_global
+        description: "Comprehensive employee data encompassing various aspects of employment and personal characteristics."
+        columns:
+          - name: Age
+          - name: Attrition
+          - name: BusinessTravel
+          - name: Department
+          - name: DistanceFromHome
+          - name: EducationField
+          - name: EmployeeID
+          - name: JobLevel
+          - name: JobRole
+          - name: MaritalStatus
+          - name: MonthlyIncome
+          - name: NumCompaniesWorked
+          - name: PercentSalaryHike
+          - name: StockOptionLevel
+          - name: TotalWorkingYears
+          - name: TrainingTimesLastYear
+          - name: YearsAtCompany
+          - name: YearsSinceLastPromotion
+          - name: YearsWithCurrManager
+          - name: TotalWorkingHours
+          - name: AverageHoursPerDay
+
       - name: df_time_calculated
         description: "Time calculation data for employees"
         columns:
@@ -606,3 +633,5 @@ sources:
           - name: _2015_12_30
 
           - name: _2015_12_31
+      
+      
