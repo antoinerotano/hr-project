@@ -79,3 +79,1054 @@ sources:
             description: "Degree of the employee's involvement in their job"
           - name: PerformanceRating
             description: "Rating of the employee's overall performance"
+      - name: df_time_calculated
+        description: "Time calculation data for employees"
+        columns:
+          - name: EmployeeID
+            mode: NULLABLE
+            type: INTEGER
+            description: "Unique identifier for each employee"
+
+          - name: _2015_01_01
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_01_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_14
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_01_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_26
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_01_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_01_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_02_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_05
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_03_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_03_31
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_01
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_04_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_01
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_05_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_05_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_01
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_06_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_01
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_17
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_07_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_07_31
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_08_31
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_01
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_17
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_09_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_09_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_01
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_02
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_10_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_10_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_05
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_06
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_09
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_11_10
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_11_11
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_11_12
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_13
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_19
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_20
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_25
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_26
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_27
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_11_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_01
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_02
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_03
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_04
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_07
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_08
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_09
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_10
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_11
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_14
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_15
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_16
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_17
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_18
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_21
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_22
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_23
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_24
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_25
+            mode: NULLABLE
+            type: FLOAT
+
+          - name: _2015_12_28
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_29
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_30
+            mode: NULLABLE
+            type: INTEGER
+
+          - name: _2015_12_31
+            mode: NULLABLE
+            type: INTEGER
