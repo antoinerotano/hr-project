@@ -634,4 +634,37 @@ sources:
 
           - name: _2015_12_31
       
-      
+      - name: df_all
+        identifier: df_all
+        description: "A table aggregating all relevant employee data across multiple dimensions."
+        columns:
+          - name: Age
+          - name: Attrition
+          - name: BusinessTravel
+          - name: Department
+          - name: DistanceFromHome
+          - name: Education
+          - name: EducationField
+          - name: EmployeeID
+          - name: JobLevel
+          - name: JobRole
+          - name: MaritalStatus
+          - name: MonthlyIncome
+          - name: NumCompaniesWorked
+          - name: PercentSalaryHike
+          - name: StockOptionLevel
+          - name: TotalWorkingYears
+          - name: TrainingTimesLastYear
+          - name: YearsAtCompany
+          - name: YearsSinceLastPromotion
+          - name: YearsWithCurrManager
+          - name: TotalWorkingHours
+          - name: AverageHoursPerDay
+          - name: NumberOfDaysAbsent
+          - name: EmployeeID_23
+          - name: JobInvolvement
+          - name: PerformanceRating
+          - name: EmployeeID_26
+          - name: EnvironmentSatisfaction
+          - name: JobSatisfaction
+          - name: WorkLifeBalance
