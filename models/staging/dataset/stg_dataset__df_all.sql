@@ -32,10 +32,8 @@ renamed as (
         totalworkinghours,
         averagehoursperday,
         numberofdaysabsent,
-        employeeid_23,
         jobinvolvement,
         performancerating,
-        employeeid_26,
         environmentsatisfaction,
         jobsatisfaction,
         worklifebalance

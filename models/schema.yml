@@ -636,7 +636,7 @@ sources:
       
       - name: df_all
         identifier: df_all
-        description: "A table aggregating all relevant employee data across multiple dimensions."
+        description: "A comprehensive table combining various employee-related metrics and attributes."
         columns:
           - name: Age
           - name: Attrition
@@ -661,10 +661,8 @@ sources:
           - name: TotalWorkingHours
           - name: AverageHoursPerDay
           - name: NumberOfDaysAbsent
-          - name: EmployeeID_23
           - name: JobInvolvement
           - name: PerformanceRating
-          - name: EmployeeID_26
           - name: EnvironmentSatisfaction
           - name: JobSatisfaction
           - name: WorkLifeBalance
